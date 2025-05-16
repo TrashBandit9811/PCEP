@@ -10,3 +10,5 @@ def happy_new_year(wishes = True):
 # Test the function
 
 happy_new_year()
+happy_new_year(False)
+happy_new_year(True)
