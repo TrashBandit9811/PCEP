@@ -1,0 +1,3 @@
+global name
+global name1, name2 #, name3 ...
+
