@@ -7,8 +7,5 @@ def happy_new_year(wishes = True):
 
     print("Happy New Year!")
 
-# Test the function
-
 happy_new_year()
 happy_new_year(False)
-happy_new_year(True)
