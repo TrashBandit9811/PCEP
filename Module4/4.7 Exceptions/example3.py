@@ -4,4 +4,4 @@ try:
 except:
     print('I do not know what to do.')
 # The code above is a simple example of exception handling in Python.
-# It attempts to convert user input into an integer and calculate its reciprocal.
+# It attempts to convert user input into an integer and calculate its reciprocal. 
