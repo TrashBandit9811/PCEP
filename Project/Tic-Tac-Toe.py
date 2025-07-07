@@ -40,11 +40,11 @@ while True:
     # Check for user win
     for i in range(3):
         if all(board[i][j] == 'O' for j in range(3)) or all(board[j][i] == 'O' for j in range(3)):
-            print("Congratulations! You win!")
+            print("Congratulations! You won!")
             exit()
 
     if all(board[i][i] == 'O' for i in range(3)) or all(board[i][2 - i] == 'O' for i in range(3)):
-        print("Congratulations! You win!")
+        print("Congratulations! You won!")
         exit()
 
     # Computer's turn
